@@ -45,7 +45,6 @@
           >通行成功</span
         >
       </div>
-      <p class="line1" style="margin-top: 20px;"></p>
     </div>
 
     <div class="third" style="font-size: 20px">
@@ -59,19 +58,18 @@
       >
         所在位置
       </p>
-      <p class="line" style="margin-left:5px"></p>
-      <span
+      <p class="line"></p>
+      <p
         style="
           margin-left: 107px;
           font-size: 18px;
-          margin-top: 0px;
+          margin-top: -12px;
           position: absolute;
           color: rgb(111, 158, 240);
         "
       >
         校本部-北门（入口）
-      </span>
-      <p class="line1" style="margin-top: 60px"></p>
+      </p>
     </div>
 
     <div
@@ -79,8 +77,10 @@
       style="
         font-size: 16px;
         font-weight: normal;
-        margin-left: 15px;
+        margin-left: 10px;
         position: absoulte;
+        padding-top: 15px;
+        padding-left: 10px;
       "
     >
       您的出入校申请时间如下：<br />
@@ -198,7 +198,7 @@ export default {
   background-color: rgb(255, 255, 255);
   width: 380px;
   height: 235px;
-  margin-top: 160px;
+  margin-top: 150px;
   margin-left: 12px;
   border-radius: 3%;
 }
@@ -230,23 +230,16 @@ export default {
   background-color: rgb(255, 255, 255);
   width: 380px;
   height: 100px;
-  margin-top: 410px;
+  margin-top: 400px;
   border-radius: 3%;
   margin-left: 12px;
 }
 
 .line {
-  width: 100%;
+  width: 95%;
   height: 2px;
+  margin-left: 10px;
   background: rgb(233, 233, 233);
-  margin-top: -3px;
-}
-.line1 {
-  width: 120%;
-  height: 15px;
-  background: rgb(233, 233, 233);
-  margin-top: 54px;
-  margin-left: -30px;
 }
 
 .four {
@@ -255,7 +248,7 @@ export default {
   background-color: rgb(255, 255, 255);
   width: 380px;
   height: 90px;
-  margin-top: 550px;
+  margin-top: 515px;
   border-radius: 3%;
 }
 </style>
