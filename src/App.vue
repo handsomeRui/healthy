@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/"></router-link>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
-  html {background-color: rgb(241,241,241);}
+  body {background-color: rgb(241,241,241);}
 </style>

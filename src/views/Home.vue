@@ -155,7 +155,7 @@ export default {
 .first {
   width: 110%;
   height: 200px;
-  position: fixed;
+  position: absolute;
   z-index: -1;
   margin-left: -20px;
   margin-top:-10px
@@ -193,7 +193,7 @@ export default {
 }
 
 .second {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   background-color: rgb(255, 255, 255);
   width: 380px;
@@ -225,7 +225,7 @@ export default {
 }
 
 .third {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   background-color: rgb(255, 255, 255);
   width: 380px;
@@ -243,7 +243,7 @@ export default {
 }
 
 .four {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   background-color: rgb(255, 255, 255);
   width: 380px;
